@@ -1,0 +1,131 @@
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    overflow-x: hidden;
+    min-height: 95vh;
+}
+.container {
+    background-color: #FFC29B;
+    height: 100%;
+    width: 100%;
+
+}
+
+.logo{
+    font-family: "Italiana", sans-serif;
+    font-size: 8rem;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+    text-shadow: 0.5rem 1rem rgba(143, 134, 134, 0.2);
+}
+
+p {
+font-family: "Exo 2", sans-serif;
+font-size: 2rem;
+text-align: justify;
+}
+
+h2 {
+    font-family: "DM Serif Display", serif;
+font-size: 2rem;
+color: #FFC29B;
+}
+
+h3 {
+font-family: "DM Serif Display", serif;
+font-size: 2rem;
+color: #FFC29B;
+}
+
+
+.profile-pic {
+width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    font-size: 2rem;
+    margin-bottom: 150px;
+}
+
+.profile {
+height:400px;
+width:400px;
+border-radius: 50px;
+
+}
+
+.about-me {
+width: 70%;
+    flex; inline-block;
+    flex-flow: column;
+    flex:1;
+    font-size: 1rem;
+    text-align:left;
+    margin-left: 200px;
+    
+}
+
+.about-link {
+    display:flex;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.skills {
+height:200px;
+width:200px;
+float: right;
+padding-left: 100px;
+
+}
+
+
+.fun-fact {
+height:100px;
+width:200px;
+float: right;
+padding-left: 100px;
+}
+
+.contact {
+margin-top: 150px;
+margin-left: 200px;
+width: 70%;
+    flex; inline-block;
+    flex-flow: column;
+    justify-content: center;
+    flex:1;
+    font-size: 1rem;
+}
+
+
+input {
+background-color: #FFC29B;
+color:white;
+justify-content: center;
+border: none;
+border-radius: 4px;
+text-transform: uppercase;
+    transition: transform.3s;
+    margin-bottom: 100px;
+}
+
+
+.links {
+text-align: center;
+font-size: 1rem;
+flex-direction: row;
+justify-content: center;
+}
+
+footer {
+font-size: 1rem;
+background-color: #FFC29B;
+color: white;
+}
